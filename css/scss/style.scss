@@ -10,11 +10,6 @@ header {
     height: auto;
 }
 
-.section {
-    background-color: $color-col;
-    border: $grey;
-}
-
 nav {
     ul {
         li {
@@ -24,6 +19,15 @@ nav {
         }
     }
 }
+
+.section {
+    background-color: $color-col;
+    border: $grey;
+}
+.picture{
+    max-width: 100%;
+}
+
 
 #profilImg {
     width: 50px;
@@ -52,8 +56,19 @@ nav {
     }
 }
 
-#jb {
-    max-width: 100%;
+.mainArt{
+    padding: 0 4%;
+    margin-bottom: $Mbot;
+
+    p{
+        font-size: 0.8em
+    }
+
+}
+h2{
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .mozaik {
