@@ -1,15 +1,52 @@
 @import"base";
-
-header{
+header {
     background-color: $blue;
     color: $color-col;
+    margin-bottom: $Mbot;
 }
 
-#logoNav{
-    width:100px;
+#logoNav {
+    width: 100px;
     height: auto;
 }
-.section{
-    background-color: $color-col;
 
+.section {
+    background-color: $color-col;
+}
+
+nav {
+    ul {
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+#profilImg {
+    width: 50px;
+    height: auto;
+}
+
+#btn {
+    color: white;
+    background-color: $blue;
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: rgb(216, 209, 209);
+        }
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .active>.nav-link {
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+    }
 }
