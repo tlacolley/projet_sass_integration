@@ -10,9 +10,12 @@ header {
     height: auto;
 }
 
-.section {
+ .section {
     background-color: $color-col;
+    border: $grey ;
+    margin: 0 2%;
 }
+
 
 nav {
     ul {
