@@ -1,4 +1,7 @@
 @import"base";
+body{
+    background-color: $color-bg;
+}
 header {
     background-color: $blue;
     color: $color-col;
@@ -20,12 +23,27 @@ nav {
     }
 }
 
-.section {
-    background-color: $color-col;
-    border: $grey;
+.sectionAside{
+    @include sectionCol;
+    margin-bottom: 5%;
 }
+
+
+
+
+.section {
+    @include sectionCol;
+}
+
+
+
+
+
+
 .picture{
     max-width: 100%;
+    padding: 2%;
+    height: 100%
 }
 
 
@@ -57,20 +75,47 @@ nav {
 }
 
 .mainArt{
-    padding: 0 4%;
+
+    margin-bottom: $Mbot;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+
+
+}
+
+.sectionImg{
+
     margin-bottom: $Mbot;
 
-    p{
-        font-size: 0.8em
-    }
-
+}
+h1{
+    font-size: 1.1rem;
+        font-weight: bold;
 }
 h2{
     font-size: 1rem;
     font-weight: bold;
     display: inline-block;
 }
+p{
+    font-size: 0.8em
+}
 
+.aside_left{
+
+    display: flex;
+    flex-direction: column;
+    ul{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 0.6em;
+        text-align: start;
+    }
+}
 .mozaik {
     display: flex;
     flex-direction: column;

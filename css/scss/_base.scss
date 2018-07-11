@@ -1,5 +1,18 @@
 $color-col:#ffffff;
 $color-bg:#f5f8fa;
 $blue: #3097d1;
-$Mbot:2rem;
-$grey:#e6eaed solid 4px;;
+$Mbot:1rem;
+$grey:#e6eaed solid 2px;;
+
+
+@mixin sectionCol{
+    background-color: $color-col;
+    border: $grey;
+    padding: 1rem;
+
+    .col-2{
+        padding-right: 0;
+    }
+
+
+}
