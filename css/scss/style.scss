@@ -10,12 +10,10 @@ header {
     height: auto;
 }
 
- .section {
+.section {
     background-color: $color-col;
-    border: $grey ;
-    margin: 0 2%;
+    border: $grey;
 }
-
 
 nav {
     ul {
@@ -52,4 +50,19 @@ nav {
             font-weight: bold;
         }
     }
+}
+
+#jb {
+    max-width: 100%;
+}
+
+.mozaik {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caro {
+    width: 50%;
+    height: auto;
 }
